@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player CLONE BY TANISHQ</title>
+    <link rel="stylesheet" href="spotify clone.css">
+    <link rel="icon" href="./Assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alice&family=Archivo+Black&family=Bebas+Neue&family=DM+Serif+Display&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300&family=Prata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/24c97a9a5b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/24c97a9a5b.js" crossorigin="anonymous"></script>
+    <div class="main">
+        <div class="side-bar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option">
+                        <img src="./Assets/library_icon.png" class="book">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="buts">
+                    <button class="badge">playlists</button>
+                    <button class="badge">Artists</button>
+                    <button class="badge">Albums</button>
+                    <button class="badge">Podcasts</button>
+        
+                </div>
+                <div class="lib-box">
+                    <div class="box1">
+                        <p class="p1">Create your first playlist</p>
+                        <p class="p2">It's easy, We'll help you</p>
+                        <button class="badge">Create playlist</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+
+    <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                <img  class="backward" src="./assets/backward_icon.png">
+                <img   class="forward"  src="./assets/forward_icon.png">
+                </div>
+                <div class="sticky-nav-options">
+                <button class="badge hide" id="exp">Explore Premium</button>
+                <button class="badge dark-badge hide" ><i class="fa-solid fa-circle-down" id="dwn" style="color: #ffffff;"></i>Install app</button>
+                <i class="fa-solid fa-bell"></i>
+                <i id="i2" class="fa-regular fa-user"></i>
+                </div>
+            </div>
+
+
+        <h2>Recently played</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img class="card-img" src="./Assets/card1img.jpeg" alt="">
+                <a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF?si=6bb7c9bc343545b4">
+
+                <p class="card-title">Top 50 - Global</p>
+                <br>
+                <p class="card-info">Your daily updates of the most played tracks</p>
+            </a>
+            </div>
+        </div>
+
+        <br>
+        <h2>Trending Near you</h2>
+        <div class="cards-container2">  
+        
+            <div class="cards-container">
+                <div class="card">
+                    <img class="card-img" src="./Assets/card2img.jpeg" alt="">
+                    <a href="https://open.spotify.com/playlist/0zc6Hq9OIAengtGG6a3lfs?si=1b3ff27b17544e0c">
+                    <p class="card-title">Romantic songs</p>
+                    <br>
+                    <p class="card-info">we'll set your mood to groove on love</p>
+                </a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <div class="card">
+                    <img class="card-img" src="./Assets/card3img.jpeg" alt="">
+                    <a href="https://open.spotify.com/playlist/7mkL25lX2uu64ivqEA1cEc?si=aac8449b83344dd4">
+                    <p class="card-title">Gazal ho jaye?</p>
+                    <br>
+                    <p class="card-info">most trendy gazals to make you clap on beats</p>
+                </a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <div class="card">
+                    <img class="card-img" src="./Assets/card4img.jpeg" alt="">
+                    <a href="https://open.spotify.com/playlist/37i9dQZF1DX8rReperOvgQ?si=0fbea4c4f7c441f5">
+                    <p class="card-title">Thalapathy Hits</p>
+                    <br>
+                    <p class="card-info">will energize you with south Indian Beats</p>
+                </a>
+                </div>
+            </div>
+        </div>
+            <h2>Featured Playlists</h2>
+        <div class="cards-container3">
+         
+            <div class="cards-container">
+                <div class="card">
+                    <img class="card-img" src="./Assets/card5img.jpeg" alt="">
+                    <a href="https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF?si=1e8de2577f8a4086">
+                    <p class="card-title">Top 50 - Global</p>
+                    <br>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                    </a>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img class="card-img" src="./Assets/card6img.jpeg" alt="">
+                    <a href="https://open.spotify.com/playlist/37i9dQZEVXbMWDif5SCBJq?si=5a9c2d90c58646fa">
+                    <p class="card-title">Top 50 - Global</p>
+                    <br>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="line">
+                this is just a clone version of Spotify, made by Tanishq.
+            </div>
+        </div>
+        </div>
+    
+    </div>
+
+    <div class="music-player">
+        
+        <div class="album">
+        <div class="img">
+            <img src="./Assets/card4img.jpeg" style="height: 2rem; width:2rem;">
+        </div>
+        <div class="info">
+            <p class="name">Naa Ready</p>
+            <p class="singer">Artist</p>
+        </div>
+        <div class="like">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-window-maximize" id="loop"></i>
+        </div>
+        </div>
+
+        <div class="player">
+            <div class="player-controls">
+                <img src="./Assets/player_icon1.png" class="player-control-icon">
+                <img src="./Assets/player_icon2.png" class="player-control-icon">
+                <img src="./Assets/player_icon3.png" class="player-control-icon" style="opacity:1; height: 2rem;">
+                <img src="./Assets/player_icon4.png" class="player-control-icon">
+                <img src="./Assets/player_icon5.png" class="player-control-icon">
+
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range" min="0" max="0" step="1" class="progress-bar">
+                <span class="tot-time">04:00</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <i class="fa-regular fa-circle-pause"></i>
+            <i class="fa-solid fa-microphone"></i>
+            <i class="fa-solid fa-list"></i>
+            <i class="fa-solid fa-desktop"></i>
+            <i class="fa-solid fa-volume-high"></i>
+            <input type="range" step="1" class="in">
+        </div>
+    </div>
+    
+</body>
+</html>
